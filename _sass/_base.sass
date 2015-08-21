@@ -1,0 +1,113 @@
+/**
+ * Basic styling
+ */
+body
+  font-family: $base-font
+  font-size: $base-font-size
+  font-weight: 300
+  line-height: $base-line-height
+  color: $text-color
+  background-color: $background-color
+  -webkit-text-size-adjust: 100%
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm
+  margin-bottom: $spacing-unit / 2
+
+/**
+ * Images
+ */
+img
+  max-width: 100%
+  vertical-align: middle
+
+
+/**
+ * Figures
+ */
+figure > img
+  display: block
+
+
+figcaption 
+  font-size: $small-font-size
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6
+  font-weight: 300
+
+
+
+
+/**
+ * Links
+ */
+a
+  color: $link-color
+  text-decoration: none
+
+  &:hover
+    color: $text-color
+    text-decoration: underline
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code 
+  font-size: 15px
+  border: 1px solid $gray-light
+  border-radius: 3px
+  background-color: #eef
+
+
+code 
+  padding: 1px 5px
+
+
+pre 
+  padding: 8px 12px
+  overflow-x: scroll
+
+  > code 
+    border: 0
+    padding-right: 0
+    padding-left: 0
+
+
+/**
+ * Clearfix
+ */
+%clearfix 
+
+  &:after 
+    content: ""
+    display: table
+    clear: both
+    
+
+/**
+ * Icons
+ */
+.icon 
+
+  > svg 
+
+    display: inline-block
+    width: 16px
+    height: 16px
+    vertical-align: middle
+
+    path
+      fill: $gray

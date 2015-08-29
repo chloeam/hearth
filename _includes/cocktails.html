@@ -1,0 +1,9 @@
+<h3 class="category">Cocktails</h3>
+
+  {% for cocktails in site.data.cocktails %}
+    <article class="food-item">
+      <p class="food-name">{{ cocktails.name }} <span class="price">{{ cocktails.price }}</span></p>
+      <p class="food-description">{{ cocktails.description }}</p>
+    </article>
+
+  {% endfor %}

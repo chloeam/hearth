@@ -1,0 +1,23 @@
+- name: Angus Burger
+  price: 13
+  description: "Eight ounce patty, lettuce, tomato, onion, pickle, pretzel bun"
+
+- name: Hearth Burger
+  price: 16
+  description: "Eight ounce patty, tomato, avocado, onion, bacon, aged cheddar, pretzel bun"
+
+- name: Fried Chicken Sandwich
+  price: 13
+  description: "Buttermilk-herb fried chicken, vinegar cucumber salad, hot sauce mayo, toasted tuscan roll"
+
+- name: Grilled Chicken Panini
+  price: 12
+  description: "Grilled chicken, provolone, avocado, and tomato pressed and grilled on sourdough bread"
+
+- name: Grilled Cheese
+  price: 10
+  description: "Cheddar grilled with bacon, tomato, and pesto on sourdough bread"
+
+- name: Not Your Mama’s Grilled Cheese
+  price: 12
+  description: "Brie, and granny-smith apple slices pressed and grilled to perfection between two slices of cinnamon-raisin bread"

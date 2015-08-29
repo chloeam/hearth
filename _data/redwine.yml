@@ -1,0 +1,23 @@
+- name: Red Wine
+  price: 8
+  description: "Vodka, ginger beer, fresh lime juice"
+
+- name: "Jack & Ginger"
+  price: 8
+  description: "Jack Daniels whiskey and ginger ale"
+
+- name: Summer Dreamin'
+  price: 8
+  description: "Cucumber-infused vodka, club soda, mint, and lime juice"
+
+- name: Strawberry Basil Shag
+  price: 8
+  description: "Vintage vodka cocktail with a tasty combination of fresh berries and basil."
+
+- name: Killer P
+  price: 8
+  description: "Spiced rum, passion fruit, pineapple and orange juices topped club soda, Peychaud’s Bitters and fresh grated nutmeg."
+
+- name: Rosemary’s Smash
+  price: 8
+  description: "Gin, fresh rosemary, and cucumbers muddled with lime juice and topped with tonic"

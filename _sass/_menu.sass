@@ -1,0 +1,61 @@
+.tabs
+  margin-top: $spacing-half
+  +span-columns(10)
+  +shift(1)
+  padding: 0
+  display: flex
+  justify-content: space-around
+  align-items: stretch
+  height: 70px
+  border-bottom: 1px solid $brown
+
+  li 
+    list-style: none
+
+  a 
+    text-align: center
+    color: $brown
+    font-family: $heading-font
+    font-size: 1.1em
+    line-height: 69px
+
+    &:hover
+      text-decoration: none
+      color: $purple
+
+  .active
+    border-bottom: 2px solid $brown
+
+.menu
+  +span-columns(10)
+  +shift(1)
+
+.super-category
+  color: $red
+  font-size: 2em
+  font-weight: bold
+  text-align: center
+  letter-spacing: 10px
+  text-transform: uppercase
+
+.category 
+  font-family: $base-font
+  color: $purple
+  font-weight: bold
+
+.food-item
+  margin-bottom: $spacing-half
+
+.food-name
+  font-family: $heading-font
+  color: $red
+  text-transform: uppercase
+  margin: 0
+
+.price
+  color: $brown
+  font-family: $base-font
+
+.food-description
+  color: $brown
+  margin: 0

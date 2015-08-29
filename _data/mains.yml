@@ -1,0 +1,19 @@
+- name: Pesto Tortellini
+  price: 12
+  description: Cheese tortellini smothered in our house-made pesto
+
+- name: Sausage Risotto
+  price: 15
+  description: "Sausage, onion, carrots, and peas smashed into our delicious risotto"
+
+- name: Mussels
+  price: 17
+  description: "Pork belly, fennel, leeks, belgian ale, french fries"
+
+- name: TV Dinner
+  price: 20
+  description: "Meatloaf, green beans, buttery mashed potatoes, and a slice of our famous chocolate cake"
+
+- name: Roasted Half Chicken
+  price: 21
+  description: "Sweet corn mashed potatoes, summer beans, and bbq jus"

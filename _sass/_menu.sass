@@ -1,5 +1,5 @@
 .tabs
-  margin-top: $spacing-half
+  margin-top: $spacing-unit
   +span-columns(10)
   +shift(1)
   padding: 0
@@ -29,6 +29,9 @@
 .menu
   +span-columns(10)
   +shift(1)
+  +columns(2)
+  +column-gap($spacing-unit * 2)
+  margin-top: $spacing-half
 
 .super-category
   color: $red
@@ -37,6 +40,7 @@
   text-align: center
   letter-spacing: 10px
   text-transform: uppercase
+  margin-bottom: $spacing-unit
 
 .category 
   font-family: $base-font

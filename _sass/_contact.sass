@@ -1,0 +1,76 @@
+.contact-module
+  background: $red
+  color: $cream
+  margin-top: $spacing-unit
+  padding: $spacing-half
+  padding-bottom: $spacing-unit
+
+  h1
+    font-family: $base-font
+    font-size: 4em
+    font-style: italic
+    text-align: center
+    margin-bottom: 0
+
+  p 
+    font-family: $heading-font
+    text-transform: uppercase
+    font-size: 1.5em
+    text-align: center
+    margin-top: $spacing-half
+    letter-spacing: 0.5em
+
+#contact
+  width: 70%
+  margin: $spacing-half auto
+  border-top: 2px solid $cream
+  padding-top: $spacing-unit * 2
+
+  .first-name,
+  .last-name
+    +span-columns(6)
+
+  .last-name
+    +omega
+
+  label,
+  input 
+    display: block
+
+  input,
+  textarea
+    width: 100%
+    padding: 10px
+    color: $black
+    margin-bottom: $spacing-unit
+    background: $cream
+
+  label
+    font-family: $heading-font
+    text-align: center
+    text-transform: uppercase
+    font-size: 1.2em
+    letter-spacing: 3px
+    margin-bottom: $spacing-half
+
+  .newsletter-label
+    display: inline
+
+  #newsletter
+    display: inline-block
+    margin: 0
+    line-height: normal
+
+  #contact-submit
+    width: 170px
+    margin: 0 auto
+    font-family: $heading-font
+    text-transform: uppercase
+    letter-spacing: 3px
+    background: $red
+    color: $cream
+    border: 1px solid $cream
+
+    &:hover
+      background: $cream
+      color: $red

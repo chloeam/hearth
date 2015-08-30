@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  // Even when the window is resized, run this code.
+  /*// Even when the window is resized, run this code.
   $(window).resize(function(){
     
     // Variables
@@ -29,7 +29,7 @@ $(document).ready(function(){
     });
 
   // Call it on resize.
-  }).resize();
+  }).resize();*/
 
   $('ul.tabs').each(function(){
     // For each set of tabs, we want to keep track of

@@ -1,130 +1,56 @@
-$base-spacing: 1.5em !default
-$medium-screen: em(640) !default
-$large-screen: em(860) !default
-$footer-background: $purple
-$footer-color: $white
-$footer-link-color: transparentize($footer-color, 0.6)
-$footer-disclaimer-color: transparentize($footer-color, 0.6)
+.site-footer
+  +span-columns(12)
+  margin-top: $spacing-unit
+  padding: $spacing-unit $spacing-half
+  background: $purple
+  color: $white
 
-// Bourbon Refill
+.visit,
+.hours,
+.newsletter
+  +span-columns(3 of 12)
+  +shift(1)
 
-.footer-2
-  background: $footer-background
-  padding: $base-spacing
-  width: 100%
-  display: inline-block
+  h3
+    text-transform: uppercase
 
-  nav
-    line-height: 1.5em
-    margin: 0 0 1em 0
-    padding: 0
-    
-    @include media($large-screen)
-      float: left
-      line-height: 1.8em
-      margin-left: 1em
-      margin-bottom: 0 
+.visit
+  padding-left: $spacing-unit
 
-  nav a
-    list-style: none
-    padding-right: 1em
+address
+  font-style: normal
 
-    @include media($large-screen) 
-      display: inline
-      text-align: left
+.hours
+  p
+    margin: 0
 
-  a 
-    color: $footer-link-color
-    text-decoration: none
+.newsletter
+  +omega
+  padding-right: $spacing-unit
 
-    &:focus,
-    &:hover 
-      color: transparentize($footer-color, 0)
-  
-  .footer-secondary-links 
-    @include media($large-screen) 
-      float: right 
-
-    a
-      font-size: 0.8em
-    
-    nav.footer-social 
-      margin: 1em 0 0 0
-
-      @include media($large-screen) 
-        float: right
-        margin-top: 0
-    
-      a 
-        font-size: 1em
-        float: left
-        line-height: 0
-        margin: 0
-        padding-right: 0.7em
-
-        &:last-child 
-          padding-right: 0
-        
-      img 
-        height: 1.6em
-        opacity: 0.7
-        padding: 1px
-
-        &:focus,
-        &:hover 
-          opacity: 1
-
-//$body-background: #52144B
-$form-color: #737373
-$button-color: $cream
-$button-hover-color: lighten($button-color, 7%)
-
-//body
-  //background: $body-background
-  //font-family: sans-serif
-  //color: $text-color
-  //text-align: center
-
-form 
-  display: inline-block
-  width: 250px
-  margin-right: $spacing-half
-  font-family: sans-serif
-  font-size: 0.7em
-
-.input 
+.footer-nav
+  +span-columns(12)
   display: flex
-  align-items: center
+  justify-content: center
+  margin-top: $spacing-unit
+  margin-bottom: $spacing-half
 
-.button 
-  height: 34px
-  border: none
-  
-#email
-  width: 65%
-  background: darken($footer-background, 4%)
-  font-family: inherit
-  color: $form-color
-  letter-spacing: 1px
-  text-indent: 7%
-  border-radius: 5px 0 0 5px
+  a
+    color: $white
+    padding: $spacing-half $spacing-unit
+    font-family: $heading-font
+    text-transform: uppercase
+    font-size: 1em
 
-#submit 
-  width: 35%
-  height: 36px
-  background: $button-color
-  font-family: inherit
-  font-weight: bold
-  color: #999
-  letter-spacing: 1px
-  border-radius: 0 5px 5px 0
-  cursor: pointer
-  transition: background .3s ease-in-out
+    &:hover
+      text-decoration: none
+      background: $white
+      color: $purple
 
-#submit:hover
-  background: $button-hover-color
+.attribution
+  +span-columns(12)
+  text-align: center
+  font-size: 0.8em
 
-input:focus
-  outline: none
-  outline: 2px solid $button-color
-  box-shadow: 0 0 2px #E86C8D
+  a
+    color: $white

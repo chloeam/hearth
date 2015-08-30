@@ -28,6 +28,31 @@ address
   +omega
   padding-right: $spacing-unit
 
+#subscribe
+  color: $white
+
+  input
+    border: 1px solid $white
+    background: $purple
+    padding: 10px 10px
+
+  input[type=text]
+    margin-bottom: $spacing-half
+    width: 100%
+
+  input[type=email]
+    width: 65%
+    margin-right: 3%
+
+  input[type=submit]
+    width: 30%
+    font-family: $heading-font
+    text-transform: uppercase
+
+    &:hover
+      background: $white
+      color: $purple
+
 .footer-nav
   +span-columns(12)
   display: flex

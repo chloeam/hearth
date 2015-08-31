@@ -19,10 +19,6 @@ ul, ol, dl, figure,
 %vertical-rhythm
   margin-bottom: $spacing-unit / 2
 
-.wrapper
-  +outer-container(80%)
-  margin-top: $spacing-unit
-
 /**
  * Images
  */
@@ -119,3 +115,9 @@ pre
 
 .page 
   +outer-container(80%)
+
+.jumptarget:before
+  content: ""
+  display: block
+  height: 10vh
+  margin: -10vh 0 0

@@ -1,3 +1,9 @@
+.menu-module
+  +outer-container(100%)
+  background: $purple
+  color: $cream
+  padding-bottom: $spacing-unit
+
 .tabs
   margin-top: $spacing-unit
   +span-columns(10)
@@ -21,10 +27,11 @@
 
     &:hover
       text-decoration: none
-      color: $purple
+      color: $tan
 
   .active
-    border-bottom: 2px solid $brown
+    color: $cream
+    border-bottom: 2px solid $cream
 
 .menu
   +span-columns(10)
@@ -35,7 +42,7 @@
   margin-bottom: $spacing-unit
 
 .super-category
-  color: $red
+  color: $cream
   font-size: 2em
   font-weight: bold
   text-align: center
@@ -44,24 +51,27 @@
   margin-bottom: $spacing-unit
 
 .category 
+  color: $cream
   font-family: $base-font
-  color: $purple
-  font-weight: bold
+  font-size: 1.4em
+  font-style: italic
+  margin-top: 20px
+  margin-bottom: 5px
 
 .food-item
   margin-bottom: $spacing-half
 
 .food-name
   font-family: $heading-font
-  color: $red
+  color: $cream
   text-transform: uppercase
   letter-spacing: 1px
   margin: 0
 
 .price
-  color: $brown
+  color: $red
   font-family: $base-font
 
 .food-description
-  color: $brown
+  color: $tan
   margin: 0

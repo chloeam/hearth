@@ -1,0 +1,35 @@
+- name: Classic
+  price: 5
+  description: "Chocolate, vanilla, strawberry, or coffee"
+
+- name: Caramel Pretzel
+  price: 6
+  description: "Vanilla ice cream and caramel blended with pretzels"
+
+- name: Campfire S’mores
+  price: 6
+  description: "Chocolate ice cream blended with graham crackers, marshmallows, and fudge"
+
+- name: Salted Nutella Crunch
+  price: 6
+  description: "Vanilla ice cream blended with nutella and Nestl&eacute; Crunch Bars"
+
+- name: Fluffer Nutter Butter
+  price: 6
+  description: "Vanilla ice cream blended with crushed Nutter Butter Cookies and marshmallow fluff"
+
+- name: Cookie Monster
+  price: 6
+  description: "Vanilla ice cream blended with chocolate chip cookies"
+
+- name: "Coffee & Donuts"
+  price: 6
+  description: "Coffee ice cream blended with glazed donuts"
+
+- name: Chocolate Cake Shake
+  price: 7
+  description: "Vanilla ice cream blended with a slice of our famous 7-layer chocolate cake"
+
+- name: Mocha Chip
+  price: 6
+  description: "Coffee ice cream with dark chocolate chunks"

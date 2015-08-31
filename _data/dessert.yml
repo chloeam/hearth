@@ -1,0 +1,15 @@
+- name: Fudge Sundae
+  price: 6
+  description: "Vanilla ice cream with hot fudge, whipped cream, and a cherry on top"
+
+- name: Kitchen Sink Sundae
+  price: 8
+  description: "Vanilla, chocolate, and coffee ice creams with oreos, heath bar, peanuts, hot fudge, whipped cream, and a cherry on top"
+
+- name: Chocolate Cake
+  price: 6
+  description: "A slice of our famous 7-layer cake"
+
+- name: Cheesecake
+  price: 5
+  description: "A classic cheesecake with a graham cracker crust"

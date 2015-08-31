@@ -3,18 +3,62 @@ layout: default
 hero: true
 ---
 
-<div class="wrapper">
-	<div class="about">
-		<h1>Gather 'Round</h1>
-		<p>At Hearth, we want you to feel at home. Our menu features beautiful, flavorful food made with fresh local ingredients. We serve brunch, lunch, and dinner, and Hearth's comfortable atmosphere is as perfect for savouring your morning coffee as it is for laughing late into the night with friends and great wine around our luxurious fireplace.</p>
-	</div>
 
-	<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed diam tortor. Pellentesque ornare risus tortor. Suspendisse et lectus mattis, ornare mi nec, efficitur felis. Phasellus erat magna, viverra sed dapibus quis, tincidunt in nulla. Nulla pulvinar nibh quis gravida porttitor. Mauris in facilisis tellus. Sed leo quam, luctus mattis consequat a, dapibus eu nibh. Sed ac quam non odio laoreet pellentesque nec sed nibh. Nam nec leo laoreet justo pharetra luctus sed sed tortor. Curabitur elementum est vel orci sagittis, nec feugiat felis malesuada. Duis eu viverra velit, eu mollis orci. Morbi vestibulum dignissim ullamcorper. Donec facilisis risus a eros pharetra, sed molestie nulla eleifend. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-	<p>Nulla efficitur venenatis urna sed consequat. Duis mollis eu dolor at accumsan. Duis leo urna, dictum eu elit a, rutrum blandit odio. Integer at metus vel nisi iaculis auctor tincidunt vitae lorem. Proin eu condimentum turpis, ac elementum lorem. Suspendisse potenti. Quisque malesuada varius augue at lobortis. Nulla imperdiet mauris nulla, pulvinar volutpat magna ultrices at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis venenatis dui eu eleifend. Etiam at vulputate sapien. Integer blandit quam nec erat iaculis posuere ac at ipsum. Nunc fermentum sodales justo nec egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed et pharetra quam. Nullam euismod dignissim leo a aliquam.</p>-->
+<div id="about" class="about-module jumptarget">
+	<h1>Gather 'Round</h1>
+	<p>At Hearth, we want you to feel at home. Our menu features beautiful, flavorful food made with fresh local ingredients. We serve brunch, lunch, and dinner, and Hearth's comfortable atmosphere is as perfect for savouring your morning coffee as it is for laughing late into the night with friends and great wine around our luxurious fireplace.</p>
 </div>
 
-<div class="contact-module">
+<div id="menu" class="menu-module jumptarget">
+	<ul class="tabs">
+		<li><a href="#dinner">Dinner</a></li>
+		<li><a href="#lunch">Lunch</a></li>
+		<li><a href="#brunch">Brunch</a></li>
+		<li><a href="#dessert">Dessert</a></li>
+		<li><a href="#drinks">Drinks</a></li>
+	</ul>
+
+	<div id="dinner" class="menu">
+	  <h2 class="super-category">Dinner</h2>
+	  {% include salad.html %}
+	  {% include shared.html %}
+	  {% include sides.html %}
+	  {% include mains.html %}
+	  {% include sandwiches.html %}
+	</div>
+
+	<div id="lunch" class="menu">
+	  <h2 class="super-category">Lunch</h2>
+	  {% include salad.html %}
+	  {% include shared.html %}
+	  {% include sides.html %}
+	  {% include sandwiches.html %}
+	</div>
+
+	<div id="brunch" class="menu">
+	  <h2 class="super-category">Brunch</h2>
+	  {% include cocktails.html %}
+	  {% include beer.html %}
+	  {% include beer.html %}
+	</div>
+
+	<div id="dessert" class="menu">
+	  <h2 class="super-category">Dessert</h2>
+	  {% include dessert.html %}
+	  {% include pie.html %}
+	  {% include shakes.html %}
+	</div>
+
+	<div id="drinks" class="menu">
+	  <h2 class="super-category">Drinks</h2>
+	  {% include cocktails.html %}
+	  {% include beer.html %}
+	  {% include red-wine.html %}
+	  {% include white-wine.html %}
+	</div>
+</div>
+
+<div id="say-hello" class="contact-module jumptarget">
 	<h1>Say Hello</h1>
 	<p>We'd love to hear from you</p>
 

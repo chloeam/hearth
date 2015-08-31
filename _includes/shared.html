@@ -1,0 +1,9 @@
+<h3 class="category">Shared Plates</h3>
+
+  {% for shared in site.data.shared %}
+    <article class="food-item">
+      <p class="food-name">{{ shared.name }} <span class="price">{{ shared.price }}</span></p>
+      <p class="food-description">{{ shared.description }}</p>
+    </article>
+
+  {% endfor %}

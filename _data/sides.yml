@@ -1,0 +1,19 @@
+- name: Truffle Fries
+  price: 10
+  description: "White truffle oil, parsley"
+
+- name: Sweet Potato Fries
+  price: 6
+  description: "Brown sugar salt, chipotle mayonnaise"
+
+- name: Rosemary Fries
+  price: 6
+  description: "Rosemary, olive oil, sea salt"
+
+- name: Classic Fries
+  price: 5
+  description: "For when you crave the comfort of the familiar"
+
+- name: Onion Rings
+  price: 6
+  description: "Fat brew battered onion rings served with spicy ketchup & chipotle horseradish dipping sauce"

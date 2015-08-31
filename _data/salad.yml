@@ -1,0 +1,15 @@
+- name: Baja
+  price: 9 16
+  description: "chile-cumin chicken breast, black beans, avocado, scallion, tomato, cilantro, and agave-lime dressing"
+
+- name: Caesar
+  price: 6 10
+  description: "garlic croutons, shaved parmesan -add chicken 3"
+
+- name: Summer
+  price: 7 12
+  description: "mixed greens, avocado, shaved parmesan, diced apple, lime vinaigrette"
+
+- name: Thai
+  price: 9 16
+  description: "green curry chicken, carrots, bean sprouts, snap peas, fresh lime juice, coconut peanut vinaigrette"

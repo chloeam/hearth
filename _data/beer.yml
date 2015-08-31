@@ -1,23 +1,35 @@
-- name: Beer
-  price: 8
-  description: "Vodka, ginger beer, fresh lime juice"
+- name: Coors
+  price: 5
+  description:
 
-- name: "Jack & Ginger"
-  price: 8
-  description: "Jack Daniels whiskey and ginger ale"
+- name: Yuengling
+  price: 5
+  description:
 
-- name: Summer Dreamin'
-  price: 8
-  description: "Cucumber-infused vodka, club soda, mint, and lime juice"
+- name: Dogfish Head 60 Minute IPA
+  price: 5
+  description:
 
-- name: Strawberry Basil Shag
-  price: 8
-  description: "Vintage vodka cocktail with a tasty combination of fresh berries and basil."
+- name: Fat Tire Amber Ale
+  price: 6
+  description:
 
-- name: Killer P
-  price: 8
-  description: "Spiced rum, passion fruit, pineapple and orange juices topped club soda, Peychaud’s Bitters and fresh grated nutmeg."
+- name: Allagash White
+  price: 6
+  description:
 
-- name: Rosemary’s Smash
+- name: Stella Artois
   price: 8
-  description: "Gin, fresh rosemary, and cucumbers muddled with lime juice and topped with tonic"
+  description:
+
+- name: Duchess de Bourgogne
+  price: 8
+  description:
+
+- name: Amstel Light
+  price: 6
+  description:
+
+- name: Newcastle
+  price: 6
+  description: 

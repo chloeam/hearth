@@ -1,0 +1,9 @@
+<h3 class="category">Eggs</h3>
+
+  {% for eggs in site.data.eggs %}
+    <article class="food-item">
+      <p class="food-name">{{ eggs.name }} <span class="price">{{ eggs.price }}</span></p>
+      <p class="food-description">{{ eggs.description }}</p>
+    </article>
+
+  {% endfor %}

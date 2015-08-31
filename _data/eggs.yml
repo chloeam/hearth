@@ -1,0 +1,19 @@
+- name: Breakfast Sandwich
+  price: 10
+  description: "Sausage or bacon with cheddar on a croissant"
+
+- name: Big Breakfast
+  price: 10
+  description: "3 eggs served your choice of meat and biscuit, English muffin, or toast"
+
+- name: Chef's Omelette or Scramble
+  price: 11
+  description: "Sausage, cheddar, and avocado, served with roasted potatoes"
+
+- name: South of the Border Omelette or Scramble
+  price: 13 
+  description: "Chorizo, pepper-jack, avocado, and onion, served with roasted potatoes"
+
+- name: Make Your Own Omelette or Scramble
+  price: 13
+  description: "Chose three: sausage, bacon, chorizo, tomato, onion, red pepper, avocado, cheddar, pepper-jack, bleu cheese"

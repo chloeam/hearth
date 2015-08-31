@@ -1,0 +1,9 @@
+<h3 class="category">From the Griddle</h3>
+
+  {% for griddle in site.data.griddle %}
+    <article class="food-item">
+      <p class="food-name">{{ griddle.name }} <span class="price">{{ griddle.price }}</span></p>
+      <p class="food-description">{{ griddle.description }}</p>
+    </article>
+
+  {% endfor %}

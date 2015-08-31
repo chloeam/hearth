@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   At Hearth, we want you to feel at home. Our menu features beautiful, 
   flavorful food made with fresh local ingredients. We serve brunch, lunch, 
   and dinner in a comfortably atmosphere with a luxurious fireplace.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/hearth" # the subpath of your site, e.g. /blog/
+url: "http://chloeam.github.io" # the base hostname & protocol for your site
 twitter_username: chloeam
 github_username: chloeam
 repo: https://github.com/chloeam/hearth

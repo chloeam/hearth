@@ -11,12 +11,24 @@
   +span-columns(3 of 12)
   +shift(1)
 
+  @media (max-width: 1130px)
+    +span-columns(4 of 12)
+    +shift(0)
+
+  @media (max-width: $xsmall)
+    +span-columns(10)
+    +shift(1)
+
   h3
     text-transform: uppercase
 
 .visit
   padding-left: $spacing-unit
 
+  @media (max-width: $medium)
+    +span-columns(6)
+    padding-left: 0
+    
 address
   font-style: normal
 
@@ -24,9 +36,16 @@ address
   p
     margin: 0
 
+  @media (max-width: $medium)
+    +span-columns(6)
+    +omega
+
 .newsletter
   +omega
   padding-right: $spacing-unit
+
+  @media (max-width: $medium)
+    +span-columns(12)
 
 #subscribe
   color: $white
@@ -44,6 +63,12 @@ address
     width: 65%
     margin-right: 3%
 
+    @media (max-width: $medium)
+      margin-right: 4%
+
+    @media (max-width: 478px)
+      margin-right: 3%
+
   input[type=submit]
     width: 30%
     font-family: $heading-font
@@ -59,6 +84,9 @@ address
   justify-content: center
   margin-top: $spacing-unit
   margin-bottom: $spacing-half
+
+  @media (max-width: $medium)
+    flex-wrap: wrap
 
   a
     color: $white

@@ -2,6 +2,9 @@
   +outer-container(80%)
   margin-top: $spacing-unit
   padding-bottom: $spacing-unit * 4
+
+  @media (max-width: $small)
+    padding-bottom: $spacing-unit * 2
   
   h1
     font-family: $base-font
@@ -9,8 +12,23 @@
     color: $purple
     margin-bottom: 0
 
+    @media (max-width: $medium)
+      font-size: 4em
+
+    @media (max-width: $small)
+      font-size: 2.3em
+
+    @media (max-width: $xsmall)
+      font-size: 1.8em
+
+    @media (max-width: 380px)
+      margin-top: $spacing-unit
+
   p
     color: $brown
     font-size: 1.3em
     line-height: 1.8em
     margin-top: 0
+
+    @media (max-width: $xsmall)
+      font-size: 1.1em

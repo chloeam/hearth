@@ -15,6 +15,9 @@
   height: 70px
   border-bottom: 1px solid $brown
 
+  @media (max-width: $xsmall)
+    margin-top: 0
+
   li 
     list-style: none
 
@@ -40,6 +43,10 @@
   +column-gap($spacing-unit * 2)
   margin-top: $spacing-half
   margin-bottom: $spacing-unit
+
+  @media (max-width: $small)
+    +columns(1)
+    margin-top: 0
 
 .super-category
   color: $cream

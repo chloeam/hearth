@@ -80,13 +80,13 @@ address
 
 .footer-nav
   +span-columns(12)
-  display: flex
-  justify-content: center
+  +display(flex)
+  +justify-content(center)
   margin-top: $spacing-unit
   margin-bottom: $spacing-half
 
   @media (max-width: $medium)
-    flex-wrap: wrap
+    +flex-wrap(wrap)
 
   a
     color: $white
